@@ -20,7 +20,12 @@ In many urban areas, *garbage collection still depends on fixed schedules and ma
 - Integrates **IoT bin data, citizen participation, and waste management operations**
 - Single platform with **role-based access** for different users
 - Focuses on **real-time visibility, faster response, and transparency**
-<iframe width="600" height="400" src="https://miro.com/app/live-embed/uXjVGX9QkQQ=/?focusWidget=3458764653537500860&embedMode=view_only_without_ui&embedId=450931755426" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+## 🔁 System Block-Flow Diagram
+
+[![System Block-Flow Diagram](./docs/system-flow-diagram.jpg)](https://miro.com/app/board/uXjVGX9QkQQ=/)
+
+> *Click the diagram to view the interactive version on Miro.*
+
 
 ---
 
