@@ -1,5 +1,23 @@
 # Smart Waste Management & Citizen Engagement Platform
 
+## Table of Contents
+
+- [Problem Statement](#problem-statement)
+- [Problem Explanation](#problem-explanation)
+- [Proposed Solution](#proposed-solution)
+  - [Overall System Design](#overall-system-design)
+- [System Block-Flow Diagram](#system-block-flow-diagram)
+- [Citizen Module](#citizen-module)
+- [Smart Bin & IoT Integration](#smart-bin--iot-integration)
+- [Waste Management Team Module](#waste-management-team-module)
+- [Monitoring & Accountability](#monitoring--accountability)
+- [Benefits of the Solution](#benefits-of-the-solution)
+- [Technical Implementation](#technical-implementation)
+  - [Hardware Components (Prototype-Level)](#hardware-components-prototype-level)
+- [Feasibility Analysis](#feasibility-analysis)
+- [Scalability & Deployment](#scalability--deployment)
+
+
 ## Problem Statement
 
 Urban waste management in Indian cities lacks real-time visibility, citizen participation, and operational transparency. Garbage bins often overflow before collection, citizens have no reliable way to locate nearby bins or report issues, and waste management teams rely on fixed routes without accurate data on bin status. This leads to unhygienic surroundings, inefficient resource usage, delayed response to complaints, and lack of accountability in garbage collection processes.
@@ -14,7 +32,7 @@ In many urban areas, *garbage collection still depends on fixed schedules and ma
 
 ## Proposed Solution
 
-## 🔹 Overall System Design
+### Overall System Design
 
 - A **unified, web-based smart waste management platform**
 - Integrates **IoT bin data, citizen participation, and waste management operations**
@@ -24,7 +42,7 @@ In many urban areas, *garbage collection still depends on fixed schedules and ma
     - **Waste Management Team**
 - Single platform with **role-based access** for different users
 - Focuses on **real-time visibility, faster response, and transparency**
-## 🔁 System Block-Flow Diagram
+## System Block-Flow Diagram
 
 [![System Block-Flow Diagram](./docs/system-flow-diagram.jpg)](https://miro.com/app/board/uXjVGX9QkQQ=/)
 
@@ -33,7 +51,7 @@ In many urban areas, *garbage collection still depends on fixed schedules and ma
 
 ---
 
-## 🔹 Citizen Module
+## Citizen Module
 
 - View **nearby garbage bin locations** on an interactive map
 - Check **current fill status** of bins (Low / Medium / Full)
@@ -50,7 +68,7 @@ In many urban areas, *garbage collection still depends on fixed schedules and ma
 
 ---
 
-## 🔹 Smart Bin & IoT Integration
+## Smart Bin & IoT Integration
 
 - Each bin is registered with:
   - Unique ID
@@ -63,7 +81,7 @@ In many urban areas, *garbage collection still depends on fixed schedules and ma
 
 ---
 
-## 🔹 Waste Management Team Module
+## Waste Management Team Module
 
 - Secure login for sanitation and collection staff
 - Live dashboard displaying:
@@ -182,3 +200,6 @@ To ensure transparency and accountability in waste collection operations, the sy
 - Web-based architecture allows access from any device
 - Raspberry Pi and cloud infrastructure support flexible deployment models
 ---
+## License
+
+This project is licensed under the MIT License.
