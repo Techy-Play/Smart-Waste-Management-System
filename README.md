@@ -69,6 +69,11 @@ In many urban areas, *garbage collection still depends on fixed schedules and ma
 - Live dashboard displaying:
   - Bin fill status
   - Citizen-reported issues with images
+
+  ![System Block-Flow Diagram](./docs/demo-dashboard.png)
+  >*high-priority bins on top*
+- Identification of **high-priority bins**
+
 - Identification of **high-priority bins**
 - Route suggestions based on:
   - Bin fullness
@@ -138,7 +143,8 @@ To ensure transparency and accountability in waste collection operations, the sy
   <img src="./docs/raspberry-pi-5.png" width="180"/>
   <img src="./docs/ultrasonic-sensor.png" width="180"/>
 </p>
->- **ESP32** – Used for transmitting bin fill-level data to the backend
+
+- **ESP32** – Used for transmitting bin fill-level data to the backend
 
 - **Raspberry Pi 5** – Acts as a local server/gateway for handling backend services
 - **Ultrasonic Sensor** – Measures the fill level of garbage bins
