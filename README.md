@@ -1,3 +1,10 @@
+## Prototype Status (Phase 1)
+
+This submission focuses on idea validation, system design, and feasibility analysis for Phase 1 of the competition.  
+Prototype development and implementation will be carried out in the next phase upon selection.
+
+All diagrams, images, charts, and visual materials included in this documentation have been **created by our team** specifically for this project and are intended for explanatory and demonstration purposes.
+
 # Smart Waste Management & Citizen Engagement Platform
 
 ## Table of Contents
